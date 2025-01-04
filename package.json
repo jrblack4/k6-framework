@@ -1,0 +1,17 @@
+{
+  "name": "k6-framework",
+  "version": "1.0.0",
+  "description": "```bash npm init --yes ```",
+  "main": "index.js",
+  "scripts": {
+    "k6": "dotenv k6 run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/k6": "^0.54.2",
+    "dotenv-cli": "^8.0.0",
+    "typescript": "^5.7.2"
+  }
+}
